@@ -1,6 +1,6 @@
 const nome = prompt('Digite seu Nome completo: ')
-        document.body.innerHTML += `O seu nome é ${nome} <br/>`;
-        document.body.innerHTML += `Seu nome tem ${nome.length} letras <br />`;
+        document.body.innerHTML += `O seu nome é <strong>${nome}</strong> <br/>`;
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras <br />`;
         document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome.charAt(1)}</strong><br />`;
         document.body.innerHTML += `Qual o primeiro índice da letra "d" no seu nome? <strong>${nome.indexOf('d')}</strong><br />`;
         document.body.innerHTML += `Qual o último índice da letra "e" no seu nome? <strong>${nome.lastIndexOf('e')}</strong><br />`;
