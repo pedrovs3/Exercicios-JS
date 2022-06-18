@@ -29,4 +29,6 @@ const pessoa1 = {
     }
 }
 
-pessoa1.fala();
+const array = [pessoa1]
+
+console.log(array);
